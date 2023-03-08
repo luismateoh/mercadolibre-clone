@@ -9,23 +9,6 @@
   border: 1px solid red;
 }
 
-/* ---------- General --------- */
-.container {
-  display: flex;
-  flex-direction: column;
-
-  width: 100%;
-  max-width: 1200px;
-}
-
-.h2 {
-  font-weight: 100;
-  font-size: 25px;
-  line-height: 31px;
-
-  color: #666666;
-}
-
 /* ---------- Header --------- */
 
 header {
@@ -283,6 +266,7 @@ header {
   align-items: center;
   display: flex;
   justify-content: center;
+  overflow: visible;
 }
 
 .payment-info {
@@ -294,6 +278,7 @@ header {
 }
 
 .payment-info span {
+  max-width: 220px;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -302,6 +287,7 @@ header {
   display: flex;
   align-items: center;
   white-space: nowrap;
+  overflow: visible;
   color: #000000;
 }
 
@@ -402,8 +388,6 @@ header {
   gap: 10px;
 }
 .offer-price span {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -415,8 +399,6 @@ header {
 }
 
 .offer-price p {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -435,11 +417,185 @@ header {
 }
 
 .offer-delivery span {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
 
   color: #00a650;
 }
+
+/*----------- Subscription section ---------- */
+
+.subscription {
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.subscription-container {
+  width: 1180px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px 40px 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.subscription-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+
+  background: linear-gradient(90deg, #a90f90 55%, #0c1a51 100%);
+}
+.subscription-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.subscription-prices {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6px;
+  border-left: 2px solid #ffffff;
+}
+.subscription-prices .no-discount-price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+  text-decoration-line: line-through;
+
+  color: #ffffff;
+}
+
+.subscription-prices .price {
+  /* baseline */
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 5px;
+}
+.subscription-prices .price span {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.subscription-prices .price p {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 14px;
+
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.subscription-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 24px 24px 24px;
+  gap: 29px;
+}
+
+.subscription-description {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.subscription-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.subscription-cards div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.subs-card-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+  margin-right: 17px;
+  border: 1px solid #eeeeee;
+  display: flex;
+  justify-content: center;
+}
+.subscription-cards img {
+  width: 60px;
+  height: 60px;
+  object-fit: fill;
+}
+.subscription-cards p {
+  max-width: 240.39px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+.subscription-button {
+  height: 81px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 30px;
+  border-top: 1px solid #ededed;
+}
+
+.subscription-button button {
+  width: 123.72px;
+  height: 48px;
+  left: 1026.28px;
+  top: calc(50% - 48px / 2 + 0.5px);
+  background: #3483fa;
+  border-radius: 6px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* ---------- General --------- */
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 1200px;
+}
+
+a:hover {
+  color: #333333;
+}
+
+button:hover {
+  background-color: #126ef8;
+  cursor: pointer;
+}
+
