@@ -4,22 +4,100 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Mercado Libre</title>
   </head>
   <body>
     <header>
-      <h1>Mercado Libre</h1>
-    </header>
-    <nav>
-      <ul>
-        <li>Link 1</li>
-        <li>Link 2</li>
-        <li>Link 3</li>
-      </ul>
-    </nav>
+      <div class="container">
+        <div class="top">
+          <a href="/">
+            <img src="./media/icons/logo-meli.svg" alt="Mercado Libre Logo" />
+          </a>
+          <div class="search-bar">
+            <form class="searcher" action="">
+              <input
+                type="text"
+                placeholder="Buscar productos, marcas y más..."
+              />
+              <div class="search-div">
+                <div class="searcher-separator"></div>
+                <button class="search-button" type="submit">
+                  <img
+                    width="20px"
+                    src="./media/icons/magnifying-glass.svg"
+                    alt=""
+                  />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="navigation">
+          <nav class="page-nav">
+            <ul>
+              <li class="address">
+                <img
+                  width="20px"
+                  src="./media/icons/map-pin.svg"
+                  alt="Map icon"
+                />
+                <a href="#">Ingresa tu domicilio</a>
+              </li>
+              <li>
+                <a class="categories" href="#"><div>Categorías</div> <img width="12px" src="./media/icons/chevron-down.svg" alt="chevron down"> </a>
 
+              </li>
+              <li>
+                <a href="#">Ofertas</a>
+              </li>
+              <li>
+                <a href="#">Historial</a>
+              </li>
+              <li>
+                <a href="#">Supermercado</a>
+              </li>
+              <li>
+                <a href="#">Moda</a>
+              </li>
+              <li>
+                <a href="#">Vender</a>
+              </li>
+              <li>
+                <a href="#">Ayuda / PQR</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="account-nav">
+            <ul>
+              <li>
+                <a href="#">Crea tu cuenta</a>
+              </li>
+              <li>
+                <a href="#">Ingresa</a>
+              </li>
+              <li>
+                <a href="#">Mis compras</a>
+              </li>
+            </ul>
+            <a href="#">
+              <img
+                width="20px"
+                src="./media/icons/cart-meli.svg"
+                alt="Cart icon"
+              />
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
     <main>
+      
       <section>
         <h2>Banner</h2>
       </section>
