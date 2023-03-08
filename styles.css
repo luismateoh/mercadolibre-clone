@@ -19,11 +19,11 @@
 }
 
 .h2 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  color: #333333;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 31px;
+
+  color: #666666;
 }
 
 /* ---------- Header --------- */
@@ -326,4 +326,120 @@ header {
   text-align: center;
 
   border-left: 1px solid #eeeeee;
+}
+
+/*----------- Offers section ---------- */
+
+.offers {
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.offers-container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px 16px 0px;
+  gap: 22px;
+}
+
+.offers-title {
+  display: flex;
+  gap: 16.38px;
+  padding-left: 8px;
+}
+
+.offers-title h2 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 31px;
+
+  color: #666666;
+}
+
+.offers-title a {
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #3483fa;
+}
+
+.offers-cards {
+  display: flex;
+
+  padding: 0px 8px;
+  gap: 16px;
+}
+
+.offer-card {
+  width: auto;
+  height: 350px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.offers-image {
+  width: 224px;
+  height: 224px;
+  object-fit: cover;
+}
+
+.offer-info {
+  display: flex;
+  flex-direction: column;
+  padding: 19px 16px;
+  gap: 5px;
+}
+
+.offer-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.offer-price span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+
+  color: #333333;
+}
+
+.offer-price p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #00a650;
+}
+
+.offer-delivery {
+  height: 22px;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  text-align: center;
+}
+
+.offer-delivery span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #00a650;
 }
