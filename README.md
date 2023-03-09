@@ -1,5 +1,7 @@
 # Mercado Libre Clone
 
+Nombre: Luis Mateo Hincapié Martínez
+
 Clon de la página de Mercado Libre Colombia
 
 Este es el primer proyecto de la materia de Ingeniería Web de la Universidad de Antioquia.
