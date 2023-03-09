@@ -9,6 +9,9 @@
   border: 1px solid red;
 }
 
+body {
+  min-width: 1200px;
+}
 /* ---------- Header --------- */
 
 header {
@@ -143,7 +146,7 @@ header {
   color: #333333;
 }
 
-.categories {
+.categories-nav {
   gap: 8px;
 }
 .account-nav {
@@ -222,6 +225,7 @@ header {
 }
 
 .banner-image img {
+  width: 100%;
   height: 340px;
   object-fit: fill;
   overflow: hidden;
@@ -832,9 +836,9 @@ header {
 /* ---------- Stores section --------- */
 
 .stores {
-  background-color: #ebebeb;
   display: flex;
   justify-content: center;
+  background: linear-gradient(0deg, #e6e6e6 0%, #ebebeb 100%);
 }
 
 .stores-container {
@@ -1107,6 +1111,76 @@ header {
   object-fit: fill;
 }
 
+/* ---------- Categories section --------- */
+
+.categories {
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+}
+
+.categories-container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px 18px 0px;
+}
+
+.categories-title {
+  display: flex;
+  gap: 7px;
+  padding-left: 8px;
+}
+
+.categories-title h2 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 31px;
+
+  color: #666666;
+}
+
+.categories-cards {
+  height: 340px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+  background: rgba(255, 255, 255, 0.002);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.categories-cards div {
+  padding: 23px 15px;
+  background: #ffffff;
+  border-width: 0px 1px 1px 0px;
+  border-style: solid;
+  border-color: #eae6e6;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: baseline;
+  cursor: pointer;
+  gap: 11px;
+}
+.categories-cards span {
+  height: 42px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+
+  color: #333333;
+}
 /* ---------- General --------- */
 
 a:hover {
