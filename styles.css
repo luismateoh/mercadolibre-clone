@@ -587,7 +587,6 @@ header {
   background-color: #ebebeb;
   display: flex;
   justify-content: center;
-  align-items: baseline;
 }
 
 .benefits-container {
@@ -595,13 +594,12 @@ header {
   display: flex;
   flex-direction: column;
   margin: 40px 0px;
-  gap: 22px;
 }
 
 .benefits-title {
   display: flex;
   gap: 16.38px;
-  padding-left: 0px 8px 16px 8px; 
+  padding-left: 0px 8px 16px 8px;
 }
 
 .benefits-title h2 {
@@ -704,6 +702,117 @@ header {
   width: 100%;
   position: absolute;
   background: linear-gradient(0deg, #0064ff 0%, rgba(0, 100, 255, 0) 100%);
+}
+
+/* ----------- Discover section ----------- */
+
+.discover {
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+}
+
+.discover-container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px;
+}
+
+.discover-title {
+  display: flex;
+  gap: 16.38px;
+  padding-left: 0px 8px 16px 8px;
+}
+
+.discover-title h2 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 31px;
+
+  color: #666666;
+}
+
+.discover-cards {
+  display: flex;
+  flex-direction: row;
+  margin: 22px 0px 16px 0px;
+  padding: 0px 8px;
+  gap: 15px;
+}
+
+.discover-card {
+  width: 100%;
+  height: 250px;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 32px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.discover-card .card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discover-card .card-info p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: #4b4b4b;
+}
+
+.discover-card .card-info span {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 31px;
+
+  margin: 11px 0px 14px 0px;
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #4b4b4b;
+}
+
+.discover-card .card-info button {
+  width: 96px;
+  height: 36px;
+
+  background: #3483fa;
+  border-radius: 2px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #ffffff;
+}
+
+.discover-card .card-info button:hover {
+  background-color: #126ef8;
+  cursor: pointer;
 }
 
 /* ---------- General --------- */
