@@ -455,7 +455,7 @@ header {
   background: linear-gradient(90deg, #a90f90 55%, #0c1a51 100%);
 }
 .subscription-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 25px;
   line-height: 30px;
 
@@ -599,7 +599,7 @@ header {
 .benefits-title {
   display: flex;
   gap: 16.38px;
-  padding-left: 0px 8px 16px 8px;
+  padding-left: 8px;
 }
 
 .benefits-title h2 {
@@ -722,7 +722,7 @@ header {
 .discover-title {
   display: flex;
   gap: 16.38px;
-  padding-left: 0px 8px 16px 8px;
+  padding-left: 8px;
 }
 
 .discover-title h2 {
@@ -813,6 +813,146 @@ header {
 .discover-card .card-info button:hover {
   background-color: #126ef8;
   cursor: pointer;
+}
+
+/* ---------- Stores section --------- */
+
+.stores {
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+}
+
+.stores-container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px;
+}
+
+.stores-title {
+  display: flex;
+  gap: 16.38px;
+  padding-left: 8px;
+}
+
+.stores-title h2 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 31px;
+
+  color: #666666;
+}
+
+.stores-title a {
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #3483fa;
+}
+
+.stores-cards {
+  display: flex;
+  flex-direction: row;
+  margin: 22px 0px 16px 0px;
+  padding: 0px 8px;
+  gap: 16px;
+}
+
+.store-card {
+  width: 100%;
+  height: 340px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.store-card .card-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+
+  height: 95px;
+  margin-bottom: 40px;
+}
+
+.store-card .card-header .store-logo {
+  z-index: 20;
+  margin-bottom: -40px;
+  width: 80px;
+  height: 80px;
+  object-fit: fill;
+
+  overflow: hidden;
+
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.store-card .card-header .store-bg {
+  position: absolute;
+  z-index: 10;
+  top: -2px;
+  height: 95px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.store-card .store-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.store-card .store-info .store-name {
+  padding: 16px 0px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #333333;
+}
+
+.store-card .store-info .products {
+  display: flex;
+  gap: 6px;
+  margin: 2px 0px;
+}
+
+.store-card .store-info .products a {
+  width: 70px;
+  height: 70px;
+
+  overflow: hidden;
+
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+}
+.store-card .store-info .see-store {
+  margin-top: 24px;
+  
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #999999;
 }
 
 /* ---------- General --------- */
