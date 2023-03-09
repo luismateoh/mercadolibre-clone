@@ -27,10 +27,9 @@ Interiorizar los conceptos principales del HTML y el CSS.
 
 
 <!----------------------------------------------------------------------------->
-[Figma Link]: # 'https://www.figma.com/file/FYuD55HvuhCwfqDnzxLAvY/Clon-MercadoLibre?node-
-id=0%3A1&t=Nv7K7lq1IaKykKbQ-1'
-[Button Figma]: https://img.shields.io/badge/Mockup-Figma-blueviolet
+[Figma Link]: https://www.figma.com/file/FYuD55HvuhCwfqDnzxLAvY/Clon-MercadoLibre?node-id=0%3A1&t=Nv7K7lq1IaKykKbQ-1
+[Button Figma]: https://img.shields.io/badge/Mockup-Figma-blueviolet?style=for-the-badge
 
-[Button GHpages]: https://img.shields.io/badge/GitHub-Pages-blue
-[Link GHpages]: # 'https://luismateoh.github.io/mercadolibre-clone/'
+[Button GHpages]: https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge
+[Link GHpages]: https://luismateoh.github.io/mercadolibre-clone/
 
