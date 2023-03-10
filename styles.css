@@ -184,6 +184,10 @@ header {
   color: #333333;
 }
 
+header a:hover {
+  color: #333333;
+}
+
 /*----------- Banner ---------- */
 
 .banner {
@@ -595,6 +599,11 @@ header {
   text-align: center;
 
   color: #ffffff;
+}
+
+.subscription-button button:hover {
+  background-color: #126ef8;
+  cursor: pointer;
 }
 
 /* ---------- Benefits section --------- */
@@ -1194,7 +1203,6 @@ footer {
   margin-bottom: 24px;
 }
 
-
 footer .features {
   display: flex;
   flex-direction: row;
@@ -1214,7 +1222,6 @@ footer .features-container {
 }
 
 footer .feature {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1329,7 +1336,7 @@ footer .nav p {
   font-size: 11px;
   line-height: 13px;
   margin-bottom: 2px;
-  
+
   display: flex;
   align-items: center;
 
@@ -1346,15 +1353,4 @@ footer .regulators {
   padding: 15px 8px;
   border-top: 1px solid #ededed;
   gap: 20px;
-}
-
-/* ---------- General --------- */
-
-a:hover {
-  color: #333333;
-}
-
-button:hover {
-  background-color: #126ef8;
-  cursor: pointer;
 }
