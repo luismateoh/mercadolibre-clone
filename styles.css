@@ -1245,6 +1245,7 @@ footer .feature span {
   line-height: 28px;
 
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
 
@@ -1259,6 +1260,7 @@ footer .feature p {
   line-height: 18px;
 
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
 
