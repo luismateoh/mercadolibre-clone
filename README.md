@@ -26,7 +26,12 @@ Interiorizar los conceptos principales del HTML y el CSS.
 
 
 
+#### Descargo de responsabilidad
+Este proyecto ha sido creado únicamente con fines educativos, no está afiliado ni respaldado por MercadoLibre Colombia LTDA ni alguna de sus filiales de ninguna manera.
 
+Este proyecto ha sido desarrollado únicamente con fines de aprendizaje y práctica de habilidades en programación HTML y CSS. No se debe utilizar con fines comerciales ni para engañar a los usuarios, ya que esto sería ilegal y podría tener consecuencias legales.
+
+Además, no me hago responsable de ningún uso indebido del proyecto. Cualquier persona que utilice el proyecto lo hace bajo su propia responsabilidad y debe asegurarse de cumplir con todas las leyes y regulaciones aplicables.
 
 <!----------------------------------------------------------------------------->
 [Figma Link]: https://www.figma.com/file/FYuD55HvuhCwfqDnzxLAvY/Clon-MercadoLibre?node-id=0%3A1&t=Nv7K7lq1IaKykKbQ-1
